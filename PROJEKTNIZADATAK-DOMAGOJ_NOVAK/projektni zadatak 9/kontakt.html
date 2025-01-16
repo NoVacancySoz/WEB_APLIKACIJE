@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mačke i sve o njima">
+    <meta name="keywords" content="mačke, vrste">
+    <meta name="author" content="Domagoj Novak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mačka je gladna</title>
+</head>
+<body>
+	<header> 
+		<img src="img/cute-sleepy-kitten.webp" alt="Cute Sleepy Kitten" width="100%">
+	</header> 
+	<nav> 
+		<a href="index.html">Početna stranica</a> 
+		<a href="novosti.html">Novosti</a> 
+		<a href="kontakt.html">Kontakt</a> 
+		<a href="onama.html">O nama</a> 
+		<a href="galerija.html">Galerija</a> 
+	</nav>
+	<main> 
+		<h2>Kontakt Forma</h2> 
+		<form action="/submit_form" method="post"> 
+			<label for="fname">Ime:</label> 
+			<input type="text" id="fname" name="fname" required> 
+			<label for="lname">Prezime:</label> 
+			<input type="text" id="lname" name="lname" required> 
+			<label for="email">Email Adresa:</label> 
+			<input type="email" id="email" name="email" required> 
+			<label for="country">Država:</label> 
+			<select id="country" name="country"> 
+				<option value="hrvatska">Hrvatska</option> 
+				<option value="slovenija">Slovenija</option> 
+				<option value="srbija">Srbija</option> 
+				<option value="bosna">Bosna i Hercegovina</option> 
+			</select> 
+			<label for="subject">Opis:</label> 
+			<textarea id="subject" name="subject" style="height:200px"></textarea> 
+			<input type="submit" value="Pošalji"> 
+		</form> 
+		<h2>Pronađite Nas</h2> 
+		<p><a href="https://www.google.com/maps?q=Your+Location" target="_blank">Pogledajte na Google Karti</a>
+	</main>
+	<footer> 
+		<p>Copyright © 2025</p> 
+		<a href="https://github.com/NoVacancySoz" target="_blank"> <img src="img/git.png" alt="Github" style="width:20px;height:20px;"> </a> 
+		<a href="https://facebook.com" target="_blank">Facebook</a> 
+		<a href="https://twitter.com" target="_blank">Twitter</a> 
+		<a href="https://instagram.com" target="_blank">Instagram</a> 
+	</footer>
+</body>
+</html>
